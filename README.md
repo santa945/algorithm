@@ -1,6 +1,12 @@
 # algorithm
 前端算法的学习
 
+## 前提
+安装 nodejs v14+ ，安装 `npm` 或 `yarn`
+## 运行
+* 安装依赖：`npm install` 或 `yarn install`
+* 本地运行：`npm run dev` 或 `yarn dev` ，浏览器访问 `http://localhost:3000/`
+
 ## 进度
 * 将数组旋转k步，如`[1,2,3,4,5,6,7]`旋转3步得到 `[4，5，6，7，1，2，3]`
     * 代码：array-rotate

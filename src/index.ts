@@ -1,1 +1,1 @@
-import './alogrithm/queue-with-link-list'
+import './alogrithm/binary-search'

@@ -1,1 +1,1 @@
-import './alogrithm/two-stacks-one-queue'
+import './alogrithm/reverse-link-list'

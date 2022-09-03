@@ -3,7 +3,7 @@
  * @author 
  */
 
-import { rotate1, rotate2 } from '../alogrithm/01-array-rotate'
+import { rotate1, rotate2 } from './array-rotate'
 
 describe('数组旋转', () => {
     it('正常情况', () => {

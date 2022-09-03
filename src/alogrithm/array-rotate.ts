@@ -2,7 +2,7 @@
 /**
  * 旋转数组 k 步 - 使用 pop 和 unshift
  * 时间复杂度 O(n^2)
- * 数组是有序的，shift和unshift都会使得原本位置的数据前移或后移，本身就是一次循环
+ * 数组是有序存储结构，shift和unshift都会使得原本位置的数据前移或后移，本身就是一次循环
  * @param arr 
  * @param k 
  * @returns 

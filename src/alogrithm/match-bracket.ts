@@ -1,7 +1,7 @@
 /**
  * @description 括号匹配
  * @author 
- * @learn 关于栈的使用，压栈和出栈
+ * @learn 关于栈的使用，压栈和出栈, 时间复杂度O(n) 空间复杂度O(n)
  */
 
 
@@ -23,7 +23,8 @@ export const matchBracket = (str: string): boolean => {
     const stack = [];
     const leftSymbols = '([{';
     const rightSymbols = '}])';
-
+    // for循环：O(n)
+    // 虽然有includes，但是includes和外部数据无关，无论什么量级进来，都是循环一定次数，所以includes为O(1)
     for (let i = 0; i < len; i++) {
         const s = str[i];
         if (leftSymbols.includes(s)) {

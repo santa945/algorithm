@@ -65,10 +65,10 @@ export const reverseLinkList = (listNode: ILinkListNode): ILinkListNode => {
             // 而此时curNode是刚刚的nextNode,即{value:2,next:{value:3,next:{...}}},此处将很长的next替换成prevNode这种短对象{value:1}
             curNode.next = prevNode
         }
-        console.log('-----------看每次打印的值--------------------');
-        console.log('prevNode', prevNode && JSON.parse(JSON.stringify(prevNode)));
-        console.log('curNode', curNode && JSON.parse(JSON.stringify(curNode)));
-        console.log('nextNode', nextNode && JSON.parse(JSON.stringify(nextNode)));
+        // console.log('-----------看每次打印的值--------------------');
+        // console.log('prevNode', prevNode && JSON.parse(JSON.stringify(prevNode)));
+        // console.log('curNode', curNode && JSON.parse(JSON.stringify(curNode)));
+        // console.log('nextNode', nextNode && JSON.parse(JSON.stringify(nextNode)));
 
         // 整体向后移动指针
         prevNode = curNode
@@ -80,9 +80,9 @@ export const reverseLinkList = (listNode: ILinkListNode): ILinkListNode => {
     curNode!.next = prevNode
     return curNode!;
 }
-const arr = [1, 2, 3, 4, 5, 6, 7]
-const linkList = createLinkList(arr)
-console.log('arr', arr);
-console.log('linkList', linkList);
-const list1 = reverseLinkList(JSON.parse(JSON.stringify(linkList)))
-console.info('list1:', list1)
+// const arr = [1, 2, 3, 4, 5, 6, 7]
+// const linkList = createLinkList(arr)
+// console.log('arr', arr);
+// console.log('linkList', linkList);
+// const list1 = reverseLinkList(JSON.parse(JSON.stringify(linkList)))
+// console.info('list1:', list1)

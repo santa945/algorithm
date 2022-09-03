@@ -14,7 +14,7 @@
     * reverse-link-list
     * 重点：使用数组创建链表结构，链表是查询慢增删快的有序数据结构
     * 重点：使用三个指针同时平移，防止数据丢失
-    * ![指针的解释](./src/img/reverseLinkList.png)
+    * ![指针的解释](https://raw.githubusercontent.com/santa945/algorithm/master/src/img/reverseLinkList.png)
 ## 单元测试
 * 运行 `npx jest src/路径`查看单元测试情况
 * 判断数组和对象使用`toEqual`

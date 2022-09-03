@@ -1,1 +1,1 @@
-import './alogrithm/binary-search'
+import './alogrithm/two-numbers-sum'

@@ -1,1 +1,1 @@
-import './alogrithm/reverse-link-list'
+import './alogrithm/queue-with-link-list'

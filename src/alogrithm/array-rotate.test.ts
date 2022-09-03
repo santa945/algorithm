@@ -1,8 +1,3 @@
-/**
- * @description Array rotate test
- * @author 
- */
-
 import { rotate1, rotate2 } from './array-rotate'
 
 describe('数组旋转', () => {

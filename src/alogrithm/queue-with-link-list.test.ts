@@ -1,11 +1,7 @@
-/**
- * @description 两个栈，一个队列 test
- * @author 双越老师
- */
 
-import { MyQueue } from './two-stacks-one-queue'
+import { MyQueue } from './queue-with-link-list'
 
-describe('两个栈，一个队列', () => {
+describe('链表实现队列', () => {
     it('add and length', () => {
         const q = new MyQueue()
         expect(q.length).toBe(0)
@@ -15,7 +11,6 @@ describe('两个栈，一个队列', () => {
         q.add(300)
         expect(q.length).toBe(3)
     })
-
     it('delete', () => {
         const q = new MyQueue()
         expect(q.delete()).toBeNull()
@@ -24,8 +19,8 @@ describe('两个栈，一个队列', () => {
         q.add(200)
         q.add(300)
         expect(q.delete()).toBe(100)
-        expect(q.length).toBe(2)
         expect(q.delete()).toBe(200)
-        expect(q.length).toBe(1)
+        expect(q.delete()).toBe(300)
+        expect(q.delete()).toBeNull()
     })
 })

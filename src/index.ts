@@ -1,1 +1,1 @@
-import './alogrithm/two-numbers-sum'
+import './alogrithm/fibonacci'

@@ -1,1 +1,1 @@
-import './alogrithm/fibonacci'
+import './alogrithm/move-zero'

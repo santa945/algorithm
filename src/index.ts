@@ -1,1 +1,1 @@
-import './alogrithm/thousands-format'
+import './alogrithm/float-fn'

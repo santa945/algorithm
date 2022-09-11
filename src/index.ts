@@ -1,1 +1,1 @@
-import './alogrithm/quick-sort'
+import './alogrithm/palindrome-number'

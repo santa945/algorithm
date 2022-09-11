@@ -1,1 +1,1 @@
-import './alogrithm/palindrome-number'
+import './alogrithm/thousands-format'

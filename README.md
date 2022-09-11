@@ -46,8 +46,12 @@
     * ![双指针演示图](https://raw.githubusercontent.com/santa945/algorithm/master/src/img/move-zero.png)
 * 求字符串中连续出现的最多的字符和次数，如`aabbbccccdde`中，c出现最多为4
     * 代码：continuous-char
-    * 重点：嵌套循环和双指针都是O(n),因为嵌套循环使用了跳步
+    * 重点：嵌套循环和双指针都是O(n),因为嵌套循环使用了跳步，跳步演示参考（jumpFn循环）
     * 理解：循环中，无论嵌套循环还是双指针，结尾都要-1，理由是循环走完，会+1，这是为了让指针对应；嵌套循环-1是为了下次进来是真正的下一个，双指针-1是为了让i能一开始和j相等，保证length至少=1。
+* 快速排序
+    * 代码：quick-sort
+    * 重点：常规代码，使用二分法，时间复杂度O(nlogn)
+    * 理解：无论用splice还是slice，时间复杂度都是O(nlogn)，差不多，原因是本身时间复杂度O(nlogn)就比较大，所以splice的影响被覆盖了，同时是二分法，splice的影响被二次摊薄了。
 ## 单元测试
 * 运行 `npx jest src/路径`查看单元测试情况
 * 判断数组和对象使用`toEqual`

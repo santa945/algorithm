@@ -1,1 +1,1 @@
-import './alogrithm/continuous-char'
+import './alogrithm/quick-sort'

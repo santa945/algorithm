@@ -1,1 +1,1 @@
-import './alogrithm/move-zero'
+import './alogrithm/continuous-char'
